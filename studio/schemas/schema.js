@@ -9,6 +9,8 @@ import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
 import siteSettings from './documents/siteSettings'
+import youtube from './documents/youtube'
+import giphy from './documents/giphy'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -34,7 +36,9 @@ export default createSchema({
     authorReference,
     bodyPortableText,
     bioPortableText,
-    excerptPortableText
+    excerptPortableText,
+    youtube,
+    giphy
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
